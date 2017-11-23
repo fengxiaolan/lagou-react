@@ -1,0 +1,97 @@
+.content{
+    margin-bottom: 45px;
+    padding: 0 15px;
+}
+.logininfo{
+	margin: 10px 0;
+}
+.logininfo .nologin{
+    height: 111px;
+    text-align: center;
+    padding-top: 33px;
+    box-sizing:border-box;
+}
+
+.nologin .loginbut{
+    width: 125px;
+    height: 45px;
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    line-height: 45px;
+    text-align: center;
+    background-color: #1fc8a1;
+    margin: 0 auto;
+ }
+.buttons{
+	margin-bottom: 10px;
+	display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.buttons .button {
+    display: block;
+    width: 48%;
+    height: 86px;
+    line-height: 86px;
+    background-color: #1fc8a1;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.buttons .button:nth-child(2n){
+    margin-left: 10px;
+}
+
+.tuichu{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #1fc8a1;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: none;
+    
+}
+
+
+.haslogin {
+    position: relative;
+    width: 100%;
+    box-sizing:border-box;
+    top: 10px;
+    height: 111px;
+    display: none;
+}
+.haslogin .resume {
+    position: absolute;
+    top:16px;
+    color: #00b38a;
+    font-size: 14px;
+    right: 0;
+}
+.haslogin .headcon {
+    height: 81px;
+    width: 81px;
+    margin: 0 auto;
+    border-radius: 40.5px;
+    background-clip: padding-box;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+.haslogin .portrait{
+    width: 72px;
+    height: 72px;
+    margin: 4px 0 0 4px;
+    border-radius: 36px;
+    background-clip: padding-box;
+}
+.haslogin .loginname {
+    font-size: 14px;
+    color: #333;
+    height: 22px;
+    line-height: 22px;
+}

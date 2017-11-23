@@ -1,0 +1,31 @@
+﻿介绍项目目录表意：
+1.组件components
+recurit :点击进入公司详情组件
+detailitem :职位详情里面职位组件
+listCON:职位列表组件
+posdetail:职位详情整个页面（组件有点大哈哈）
+myinput:form的输入框组件
+jobclass:职务详情中职位分类的组件
+city:选择城市的组件
+header:头部标题组件
+DeliverNot：投简历里的所有
+DeliverInvite.js：投简历里的邀请面试
+DeliverNot.js：投简历里的不合适
+seting.js: 设置编辑里面的设置
+
+
+2.页面pages
+首页apps(position,search,mine)
+登录：login
+注册：register-->regBasic->regtouch
+职位详情：jobs-->公司详情：offer
+Collectlist：我的里面的收藏
+Deliverlist：投简历--->Deliverall,delivernot,deliverinvite
+Interview ：面试-->InterviewDid,interviewGoing
+Invitation：邀请
+
+
+没有node_modules的用cnpm init初始化
+3.运行：
+当前后台文件 node app
+前端当前文件 cnpm start

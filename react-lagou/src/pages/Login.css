@@ -1,0 +1,111 @@
+.top{
+	border-radius: 5px 5px 0 0;
+}
+
+.btm{
+	border-radius: 0 0 5px 5px;
+}
+
+.border_btm{
+    border-bottom: 1px solid #e0e0e0;
+}
+.formbg{
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(135deg,#029253,#00887b);
+}
+/*body{
+    width: 100%;
+    height: 100%;
+	background: -webkit-linear-gradient(135deg,#029253,#00887b);
+}*/
+
+.formLogin{
+    width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.inputext{
+        position: relative; 
+}
+.inputext input{
+    width: 100%;
+    border: 0;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+    padding:20px;
+    box-sizing:border-box;
+
+}
+.input_tips{
+    position: absolute;
+    right: 5%;
+    top: 36%;
+    font-size: 12px;
+    color: #f94e4e;
+    line-height: 1.2px;
+    display: none;
+}
+.hasinpt+.input_tips{
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    font-size: 12px;
+    color: #f94e4e;
+    line-height: 1.2px;
+
+}
+
+ .loginpage{
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 5%;
+}
+.nonum{
+    color: #45e3be;
+    font-size: 13px;
+    line-height: 13px; 
+}
+ .regpage{
+    width: 100%;
+    font-size: 20px;
+    color: #45e3be;
+    text-align: center;
+    border: 1px solid #45e3be;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 5%;  
+    background: transparent;
+}
+
+.openeye{
+    width: 22px;
+    height: 15px;
+   position: absolute;
+    bottom: 32%;
+    right: 5%; 
+  background: url(https://img.lagou.com/passport/static/mobile/modules/common/img/psweye_930f545.png) no-repeat 0 0;
+   background-size: 20px 30px;
+
+}
+.closeeye{
+  width: 22px;
+    height: 15px;
+   position: absolute;
+    bottom: 32%;
+    right: 5%; 
+  background: url(https://img.lagou.com/passport/static/mobile/modules/common/img/psweye_930f545.png) no-repeat 0 -16px;
+   background-size: 20px 30px;
+
+}
+
+
+
+
+
