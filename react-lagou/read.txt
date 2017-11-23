@@ -25,7 +25,7 @@ Interview ：面试-->InterviewDid,interviewGoing
 Invitation：邀请
 
 
-没有node_modules的用cnpm init初始化
 3.运行：
-当前后台文件 node app
+没有node_modules的用cnpm init初始化
+当前后台文件当前命令指示符  node app
 前端当前文件 cnpm start
